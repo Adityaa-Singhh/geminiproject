@@ -1,0 +1,46 @@
+/* Custom Text Styles */
+.text-custom {
+    font-size: 56px; /* Default size for large screens */
+    color: #c4c7c5; /* Default text color */
+  }
+  
+  .text-header {
+    font-size: 22px; /* Header text size */
+    color: #585858; /* Header text color */
+  }
+  
+  .text-card {
+    font-size: 17px; /* Card text size */
+    color: #585858; /* Card text color */
+  }
+  
+  .text-input {
+    font-size: 18px; /* Input text size */
+  }
+  
+  .text-footer {
+    font-size: 13px; /* Footer text size */
+  }
+  
+  /* Responsive Text Styles */
+  @media (max-width: 768px) {
+    .text-custom {
+      font-size: 36px; /* Smaller size for tablets */
+    }
+  
+    .text-header {
+      font-size: 18px; /* Smaller header text for tablets */
+    }
+  
+    .text-card {
+      font-size: 14px; /* Smaller card text for tablets */
+    }
+  
+    .text-input {
+      font-size: 16px; /* Smaller input text for tablets */
+    }
+  
+    .text-footer {
+      font-size: 12px; /* Smaller footer text for tablets */
+    }
+  }
